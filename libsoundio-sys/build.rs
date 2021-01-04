@@ -90,6 +90,7 @@ fn main() {
         .define("BUILD_STATIC_LIBS", "ON")
         .define("BUILD_EXAMPLE_PROGRAMS", "OFF")
         .define("BUILD_TESTS", "OFF")
+        .define("ENABLE_ALSA", "ON")
         .build();
 
     println!(
